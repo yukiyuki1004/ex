@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+main {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.No-1 {
+  margin-bottom: 50px;
+}
+
+.list {
+  padding: 20px;
+  list-style: none;
+}
+
+.list:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+
+.No-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: yellow;
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.box:nth-child(1),
+.box:nth-child(5),
+.box:nth-child(9) {
+  background-color: orange;
+}
+
+.box:nth-child(3),
+.box:nth-child(6),
+.box:nth-child(9) {
+  margin-right: 0;
+}
